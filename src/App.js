@@ -19,7 +19,7 @@ function App() {
                     <Header/>
                     <div className='container'>
                         <Routes>
-                            <Route path='/' exact element={<MainPage/>}/>
+                            <Route path='/spaceXdata' exact element={<MainPage/>}/>
                             <Route path='/launches' element={<LaunchesPage/>}/>
                             <Route path='/launches/:id' element={<LaunchDetailsPage/>}/>
                         </Routes>
