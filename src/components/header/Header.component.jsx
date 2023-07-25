@@ -12,7 +12,7 @@ const Header = () => {
             <HeaderNavigation>
                 <ul>
                     <li>
-                        <Link to={'/'}>Главная</Link>
+                        <Link to={'/spaceXdata'}>Главная</Link>
                     </li>
                     <li>
                         <Link to={'/launches'}>Полеты</Link>
